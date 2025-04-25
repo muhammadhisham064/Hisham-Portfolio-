@@ -138,12 +138,12 @@ const texts = [
       if (isMobile) {
         // Mobile-optimized animation
         tl.to(".tech:nth-child(2)", { x: 80 }, 0);
-        tl.to(".tech:nth-child(3)", { x: -100 }, 0);
+        tl.to(".tech:nth-child(3)", { x: -120 }, 0);
         tl.to(".tech:nth-child(4)", { y: -80 }, 0);
         tl.to(".tech:nth-child(5)", { y: 80 }, 0);
         tl.to(".tech:nth-child(6)", { x: 70, y: -60 }, 0);
         tl.to(".tech:nth-child(7)", { x: -90, y: 60 }, 0);
-        tl.to(".tech:nth-child(8)", { x: 75, y: 35 }, 0);
+        tl.to(".tech:nth-child(8)", { x: 95, y: 35 }, 0);
       }
     }
   );
